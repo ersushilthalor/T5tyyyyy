@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Photon Camera</string>
+    <string name="camera_permission_required">摄影功能需要相机及录音权限。</string>
+    <string name="grant_permission">授予权限</string>
+    <string name="permission_rationale">Photon Camera 需要相机权限以提供专业无反相机手动操控及光学预览。</string>
+
+    <!-- PASM Modes -->
+    <string name="mode_program">程序自动 (P)</string>
+    <string name="mode_aperture">光圈优先 (A)</string>
+    <string name="mode_shutter">快门优先 (S)</string>
+    <string name="mode_manual">全手动 (M)</string>
+    <string name="mode_program_desc">自动测光曝光与程序偏移控制</string>
+    <string name="mode_aperture_desc">控制景深虚化，快门自动计算</string>
+    <string name="mode_shutter_desc">凝固或捕捉动态，自动调节ISO及光圈</string>
+    <string name="mode_manual_desc">全手动精确控制快门速度、ISO及对焦距离</string>
+
+    <!-- Controls -->
+    <string name="shutter_speed">快门速度</string>
+    <string name="iso">感光度</string>
+    <string name="ev_comp">曝光补偿</string>
+    <string name="focus">对焦模式</string>
+    <string name="white_balance">白平衡</string>
+    <string name="aperture">光圈大小</string>
+    <string name="auto">自动</string>
+    <string name="manual">手动</string>
+    <string name="af_continuous">连续对焦 (AF-C)</string>
+    <string name="af_single">单次对焦 (AF-S)</string>
+    <string name="mf_manual">手动对焦 (MF)</string>
+
+    <!-- Quick Bar -->
+    <string name="flash_auto">闪光灯 自动</string>
+    <string name="flash_on">闪光灯 开启</string>
+    <string name="flash_off">闪光灯 关闭</string>
+    <string name="torch_on">补光常亮</string>
+    <string name="aspect_ratio">画幅比例</string>
+    <string name="ratio_4_3">4:3</string>
+    <string name="ratio_16_9">16:9</string>
+    <string name="ratio_1_1">1:1</string>
+    <string name="ratio_3_2">3:2</string>
+    <string name="grid_rule_of_thirds">九宫格构图</string>
+    <string name="grid_golden_ratio">黄金分割螺旋</string>
+    <string name="grid_off">构图线 关闭</string>
+    <string name="level_indicator">电子水平仪</string>
+    <string name="histogram">直方图</string>
+    <string name="zebra_stripes">斑马纹过曝预警</string>
+    <string name="focus_peaking">峰值对焦辅助</string>
+    <string name="burst_mode">高速连拍</string>
+    <string name="timer_off">倒计时 关闭</string>
+    <string name="timer_3s">3秒</string>
+    <string name="timer_10s">10秒</string>
+    <string name="lens_ultra_wide">超广角 0.6x</string>
+    <string name="lens_wide">主摄 1.0x</string>
+    <string name="lens_telephoto">长焦 2.0x</string>
+    <string name="lens_front">前置镜头</string>
+
+    <!-- Film Simulations & Recipes -->
+    <string name="recipes_title">胶片模拟与色彩配方</string>
+    <string name="recipe_classic_chrome">经典正片 (Classic Chrome)</string>
+    <string name="recipe_provia">标准自然 (Provia)</string>
+    <string name="recipe_velvia">鲜艳风光 (Velvia)</string>
+    <string name="recipe_acros">黑白单色 (Acros)</string>
+    <string name="recipe_bleach_bypass">留银冲洗 (Bleach Bypass)</string>
+    <string name="recipe_nostalgic_neg">怀旧负片 (Nostalgic Neg)</string>
+    <string name="recipe_teal_orange">电影青橙 (Teal &amp; Orange)</string>
+    <string name="recipe_cinematic_warm">电影暖光 35 (Warm 35)</string>
+    <string name="recipe_custom">自定义配方</string>
+
+    <!-- Color Recipe Tuning -->
+    <string name="param_exposure">曝光倾向</string>
+    <string name="param_contrast">动态对比度</string>
+    <string name="param_highlights">高光保护</string>
+    <string name="param_shadows">阴影调性</string>
+    <string name="param_saturation">色彩饱和度</string>
+    <string name="param_temperature">色温开尔文</string>
+    <string name="param_tint">洋红/绿色调</string>
+    <string name="param_vignette">镜头暗角</string>
+    <string name="param_grain">胶片颗粒</string>
+    <string name="param_hdf">HDF 高光扩散滤镜</string>
+    <string name="create_new_recipe">新建色彩配方</string>
+    <string name="save_recipe">保存配方</string>
+    <string name="reset_recipe">重置参数</string>
+    <string name="recipe_name_prompt">配方名称</string>
+
+    <!-- Gallery & Review -->
+    <string name="gallery_title">回放胶卷</string>
+    <string name="no_photos_yet">暂无拍摄样片</string>
+    <string name="take_first_shot">按下快门按钮或转动拨轮拍摄你的第一张样片。</string>
+    <string name="exif_details">参数信息 (EXIF)</string>
+    <string name="exif_camera">相机型号</string>
+    <string name="exif_focal_length">等效焦距</string>
+    <string name="exif_aperture">实际光圈</string>
+    <string name="exif_shutter">快门曝光</string>
+    <string name="exif_iso">感光度</string>
+    <string name="exif_date">记录时间</string>
+    <string name="delete_photo">删除</string>
+    <string name="share_photo">分享</string>
+    <string name="photo_deleted">照片已删除</string>
+    <string name="photo_saved">已保存至相册</string>
+
+    <!-- OSD & Camera HUD -->
+    <string name="hud_raw_jpeg">RAW+JPG</string>
+    <string name="hud_jpeg_only">FINE JPG</string>
+    <string name="hud_battery">电量 98%</string>
+    <string name="hud_card">存储 余 1.4k</string>
+    <string name="hud_af_locked">AF 已锁定</string>
+    <string name="hud_ae_locked">AE 已锁定</string>
+    <string name="burst_count_format">连拍计数: %1$d</string>
+</resources>

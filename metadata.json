@@ -1,0 +1,11 @@
+{
+  "name": "Photon Camera",
+  "description": "A professional mirrorless digital camera simulator with Camera2 manual controls, film recipes, and real-time color science.",
+  "requestFramePermissions": [
+    "android.permission.CAMERA",
+    "android.permission.RECORD_AUDIO"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
